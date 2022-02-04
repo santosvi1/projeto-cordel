@@ -69,11 +69,11 @@ section.estilo-imagem{
 }
 
 section#imagem001{
-    background-image: url('C:/Users/joao_/Documents/ESTUDOS/projeto-cordel/imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
 }
 
 section#imagem002{
-    background-image: url('C:/Users/joao_/Documents/ESTUDOS/projeto-cordel/imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg');
 }
 section > p.texto-na-imagem{
     background-color: rgba(0, 0, 0, 0.363);
