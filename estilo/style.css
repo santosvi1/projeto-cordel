@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+:root{
+    --fonte-titulo:'Passion One', cursive;
+    --fonte-poesia:'Sriracha', cursive;
+    --fonte-autor:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+header > h1{
+    font-size: 10vw;
+    font-family: var(--fonte-titulo);
+    text-transform: uppercase;
+    padding: 50px;
+
+}
+header > p, footer p{
+    color: white;
+    padding-bottom: 25px;
+    font-family: var(--fonte-autor);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+a#autor:hover{
+    text-decoration: underline;
+}
+
+
+section {
+    font-family: var(--fonte-poesia);
+    text-decoration: none;
+    padding-top: 10vh;
+    line-height: 2em;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+section.estilo-imagem{
+    
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section#imagem001{
+    background-image: url('C:/Users/joao_/Documents/ESTUDOS/projeto-cordel/imagens/background001.jpg');
+}
+
+section#imagem002{
+    background-image: url('C:/Users/joao_/Documents/ESTUDOS/projeto-cordel/imagens/background002.jpg');
+}
+section > p.texto-na-imagem{
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    width: 45%;
+}
+footer{
+    background-color: black;
+    
+}
+
+
+a.dados-autor-e-site:hover{
+   text-decoration: underline;
+}
+
